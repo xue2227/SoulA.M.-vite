@@ -1,5 +1,5 @@
 /* eslint-disable react-refresh/only-export-components */
-const Q2 = () => {
+const Transition1to2 = () => {
   return (
     <div>
       
@@ -7,4 +7,4 @@ const Q2 = () => {
   )
 }
 
-export default Q2
+export default Transition1to2

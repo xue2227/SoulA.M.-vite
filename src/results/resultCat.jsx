@@ -1,5 +1,6 @@
 /* eslint-disable react-refresh/only-export-components */
-const Q2 = () => {
+
+const ResultCat = () => {
   return (
     <div>
       
@@ -7,4 +8,4 @@ const Q2 = () => {
   )
 }
 
-export default Q2
+export default ResultCat
