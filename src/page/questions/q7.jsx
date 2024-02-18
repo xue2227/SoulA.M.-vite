@@ -2,12 +2,23 @@ import { Link } from "react-router-dom"
 
 /* eslint-disable react-refresh/only-export-components */
 const Q7 = () => {
-  
   return (
-    <div>
-      <h2>Q7:你打量了四周發現了一位正在用餐的人，他吃得津津有味發出咀嚼的聲音，你心想？</h2>
-      <button><Link to="/7to8">天呀，好沒水準的人。</Link></button> 
-      <button><Link to="/7to8">他在吃啥？吃的這麼起勁。</Link></button>
+    <div className="flex flex-col items-center justify-center min-h-screen bg-white text-black p-4">
+      <div className="w-full max-w-lg mx-auto">
+        <div className="border-2 font-bold border-black p-4 mb-4">
+          <h2>Q7:你打量了四周發現了一位正在用餐的人，他吃得津津有味發出咀嚼的聲音，你心想？</h2>
+        </div>
+        <Link to="/7to8">
+          <div className="border-2 border-black p-4 mb-4 transition duration-300 hover:bg-gray-800 hover:text-white text-center">
+            天呀，好沒水準的人。
+          </div>
+        </Link>
+        <Link to="/7to8">
+          <div className="border-2 border-black p-4 mb-4 transition duration-300 hover:bg-gray-800 hover:text-white text-center">
+            他在吃啥？吃的這麼起勁。
+          </div>
+        </Link>
+      </div>
     </div>
   )
 }

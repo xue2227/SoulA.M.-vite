@@ -1,11 +1,11 @@
 import { Link } from "react-router-dom";
-import flower from '../../assets/resultJpg/flower.jpg';
+import party from '../../assets/resultJpg/party.jpg';
 
 /* eslint-disable react-refresh/only-export-components */
-function ResultFlower() {
+function ResultParty() {
   return (
     <div className="flex flex-col items-center justify-center h-screen ">
-      <img src={flower} alt="Flower" className=" h-4/5" />
+      <img src={party} alt="Party" className=" h-4/5" />
       <br/>
       <Link to="/">
         <div className="bg-white text-black border-2 border-black font-bold py-2 px-4 transition duration-300 hover:bg-gray-800 hover:text-white">
@@ -16,4 +16,4 @@ function ResultFlower() {
   )
 }
 
-export default ResultFlower;
+export default ResultParty;

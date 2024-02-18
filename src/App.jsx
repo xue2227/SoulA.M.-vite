@@ -1,5 +1,5 @@
 import './App.css'
-import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
+import { MemoryRouter as Router, Route, Routes } from 'react-router-dom';
 // import  { useState } from 'react'
 import Intro from './page/transition/intro';
 import Q1 from './page/questions/q1'
@@ -20,6 +20,13 @@ import Transition6to7 from './page/transition/transition6to7';
 import Transition7to8 from './page/transition/transition7to8';
 import TransitionResult from './page/transition/transitionResult';
 import ResultAngel from './page/results/resultAngel';
+import ResultBaguette from './page/results/resultBaguette';
+import ResultStar from './page/results/resultStar';
+import ResultCapybara from './page/results/resultCapybara';
+import ResultCat from './page/results/resultCat';
+import ResultFlower from './page/results/resultFlower';
+import ResultGhost from './page/results/resultGhost';
+import ResultParty from './page/results/resultParty';
 
 
 function App() {
@@ -31,7 +38,7 @@ function App() {
 
   return (
     <Router>
-      <div>
+      <div className="flex flex-col items-center justify-start h-screen" >
         <Routes>
           <Route path="/" element={<Intro />} />
           <Route path="/0to1" element={<Transition0to1 />} />
@@ -51,7 +58,14 @@ function App() {
           <Route path="/7to8" element={<Transition7to8 />} />
           <Route path="/Q8" element={<Q8 />} />
           <Route path="/toResult" element={<TransitionResult />} />
-          <Route path='/angel' element={<ResultAngel/>} />
+          <Route path="/angel" element={<ResultAngel/>} />
+          <Route path="/baguette" element={<ResultBaguette/>} />
+          <Route path="/capybara" element={<ResultCapybara/>} />
+          <Route path="/cat" element={<ResultCat/>} />
+          <Route path="/flower" element={<ResultFlower/>} />
+          <Route path="/ghost" element={<ResultGhost/>} />
+          <Route path="/party" element={<ResultParty/>} /> 
+          <Route path="/star" element={<ResultStar/>} />
         </Routes>
       </div>
     </Router>

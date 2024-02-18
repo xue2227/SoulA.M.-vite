@@ -3,14 +3,14 @@ import { Link } from "react-router-dom";
 /* eslint-disable react-refresh/only-export-components */
 const Transition5to6 = () => {
   return (
-    <div>
-      <Link to="/Q6">
+    <Link to="/Q6" className="flex items-center justify-center min-h-screen bg-black text-white p-4 w-full">
+      <div className="w-full max-w-lg mx-auto text-center">
         <h4>
           繼續往山頂走去，你在路的盡頭看見了一台電梯，好奇的你朝著電梯走去...
         </h4>
-      </Link>
-    </div>
-  );
-};
+      </div>
+    </Link>
+  )
+}
 
-export default Transition5to6;
+export default Transition5to6
