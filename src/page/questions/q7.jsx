@@ -15,7 +15,7 @@ const Q7 = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-100svh sm:min-h-svg  bg-white text-black p-4">
+    <div className="flex flex-col items-center justify-center min-h-100svh sm:min-h-screen  bg-white text-black p-4">
       <div className="w-full max-w-lg mx-auto">
         <div className="border-2 font-bold border-black p-4 mb-4">
           <h2>Q7:你打量了四周發現了一位正在用餐的人，他吃得津津有味發出咀嚼的聲音，你心想？</h2>
