@@ -15,7 +15,7 @@ const Q2 = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center sm:min-h-100svh min-h-screen bg-white text-black p-4">
+    <div className="flex flex-col items-center justify-center min-h-100svh  bg-white text-black p-4">
       <div className="w-full max-w-lg mx-auto">
         <div className="border-2 font-bold border-black p-4 mb-4">
           <h2>Q2:這時，你發現一旁要轉彎的機車騎士正狠狠的瞪著你，你心想？</h2>

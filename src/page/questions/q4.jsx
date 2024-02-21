@@ -15,7 +15,7 @@ const Q4 = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center sm:min-h-100svh min-h-screen bg-white text-black p-4">
+    <div className="flex flex-col items-center justify-center min-h-100svh  bg-white text-black p-4">
       <div className="w-full max-w-lg mx-auto">
         <div className="border-2 font-bold border-black p-4 mb-4">
           <h2>Q4:劇烈聲響後你什都聽不見，隱隱之中你似乎看見了些什麼，你心想？</h2>
