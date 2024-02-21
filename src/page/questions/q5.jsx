@@ -15,7 +15,7 @@ const Q5 = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-svhsm:min-h-screen  bg-white text-black p-4">
+    <div className="flex flex-col items-center justify-center min-h-svh sm:min-h-screen  bg-white text-black p-4">
       <div className="w-full max-w-lg mx-auto">
         <div className="border-2 font-bold border-black p-4 mb-4">
           <h2>Q5:正當你準備欣賞美麗的風景，卻聽見別人手機傳來巨大的聲響，你心想？</h2>
