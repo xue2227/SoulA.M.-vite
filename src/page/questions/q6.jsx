@@ -15,7 +15,7 @@ const Q6 = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center min-h-screen bg-white text-black p-4">
+    <div className="flex flex-col items-center justify-centersm:min-h-100svh min-h-screen bg-white text-black p-4">
       <div className="w-full max-w-lg mx-auto">
         <div className="border-2 font-bold border-black p-4 mb-4">
           <h2>Q6:當你走到電梯前，電梯正好要關門，你會？</h2>
