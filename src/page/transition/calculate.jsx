@@ -44,7 +44,7 @@ const Calculate = () => {
   }, 2500);
 
   return (
-    <div className="flex items-center justify-centersm:min-h-100svh min-h-screen bg-black text-white p-4 w-full">
+    <div className="flex items-center justify-center sm:min-h-100svh min-h-screen bg-black text-white p-4 w-full">
       <div className="w-full max-w-lg mx-auto text-center">
         <h4 className="animate-pulse">
           計算中...

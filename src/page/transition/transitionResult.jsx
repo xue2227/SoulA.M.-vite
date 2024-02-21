@@ -3,7 +3,7 @@ import { Link } from "react-router-dom";
 /* eslint-disable react-refresh/only-export-components */
 const TransitionResult = () => {
   return (
-    <Link to="/calculate" className="flex items-center justify-centersm:min-h-100svh min-h-screen bg-black text-white p-4 w-full">
+    <Link to="/calculate" className="flex items-center justify-center sm:min-h-100svh min-h-screen bg-black text-white p-4 w-full">
       <div className="w-full max-w-lg mx-auto text-center">
         <h4>
           喝完咖啡後你感到昏昏欲睡，漸漸的抵抗不了強大的睡意...
