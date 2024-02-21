@@ -5,7 +5,11 @@ export default {
     './public/index.html',
   ],
   theme: {
-    extend: {},
+    extend: {
+      width: {
+        '88': '22rem',
+      },
+    },
   },
   plugins: [],
 }

@@ -47,7 +47,7 @@ function App() {
   return (
     <QuizContext.Provider value={{ PolitenessLevel, setPolitenessLevel, SensitivityLevel, setSensitivityLevel, CasualLevel, setCasualLevel,resetCounter}}>
       <Router>
-        <div className="flex flex-col items-center justify-start h-100svh">
+        <div className="flex flex-col items-center justify-start">
           <Routes>
             <Route path="/" element={<Intro />} />
             <Route path="/0to1" element={<Transition0to1 />} />
