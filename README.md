@@ -1,8 +1,5 @@
-# React + Vite
+# 心理測驗凌晨3點中 測試v1
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+這是我畢業製作專題的網頁實作，以下是設計動機。
+-
+每個人都是不同的個體，擁有不同的道德標準，對待事情的看法也不盡相同。有一些行為或許當事人不以為意，卻會給周遭的人帶來困擾。我們希望透過有趣的方式，將生活情境包裝進心理測驗，希望藉由參與心理測驗，反思自己在日常生活中的行為。
