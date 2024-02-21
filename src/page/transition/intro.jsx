@@ -13,7 +13,7 @@ const Intro = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-center bg-white text-black p-4">
+    <div className="flex flex-col items-center justify-center min-h-svh bg-white text-black p-4">
       <div className="w-full max-w-lg mx-auto">
         <div className="border-2 font-bold border-black p-4 mb-4">
           <h3>
