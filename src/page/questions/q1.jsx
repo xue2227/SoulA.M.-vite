@@ -12,7 +12,7 @@ const Q1 = () => {
   };
 
   const handleOption2 = () => {
-    setPolitenessLevel(PolitenessLevel + 2);
+    setPolitenessLevel(PolitenessLevel + 0);
   };
 
   return (

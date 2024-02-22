@@ -7,11 +7,11 @@ const Q4 = () => {
   const { PolitenessLevel, setPolitenessLevel, SensitivityLevel, setSensitivityLevel } = useContext(QuizContext);
 
   const handleOption1 = () => {
-    setPolitenessLevel(PolitenessLevel + 2);
+    setPolitenessLevel(PolitenessLevel + 4);
   };
 
   const handleOption2 = () => {
-    setSensitivityLevel(SensitivityLevel + 2);
+    setSensitivityLevel(SensitivityLevel + 0);
   };
 
   return (

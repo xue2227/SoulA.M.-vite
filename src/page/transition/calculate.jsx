@@ -6,9 +6,9 @@ const Calculate = () => {
   const { PolitenessLevel, SensitivityLevel, CasualLevel } = useContext(QuizContext);
   const navigate = useNavigate();
 
-  const Politeness = PolitenessLevel > 5 ? 'I' : 'E';
+  const Politeness = PolitenessLevel > 7 ? 'I' : 'E';
   const Sensitivity = SensitivityLevel > 1 ? 'T' : 'F';
-  const Casual = CasualLevel > 2 ? 'P' : 'J';
+  const Casual = CasualLevel > 1 ? 'P' : 'J';
 
   const combination = Politeness + Sensitivity + Casual;
 

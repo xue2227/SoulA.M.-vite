@@ -7,7 +7,7 @@ const Q3 = () => {
   const { PolitenessLevel, setPolitenessLevel, CasualLevel, setCasualLevel } = useContext(QuizContext);
 
   const handleOption1 = () => {
-    setCasualLevel(CasualLevel + 1);
+    setCasualLevel(CasualLevel + 0);
   };
 
   const handleOption2 = () => {
