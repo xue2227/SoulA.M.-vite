@@ -5,7 +5,7 @@ const Transition6to7 = () => {
   return (
     <Link to="/Q7" className="flex flex-col items-center justify-center min-h-svh bg-black text-white p-4 w-full">
       <div className="w-full max-w-lg mx-auto text-center">
-        <h4>電梯門打開，你來到了一家安靜的餐咖啡廳... </h4>
+        <h4>電梯門打開，你來到了一家安靜的咖啡廳... </h4>
       </div>
     </Link>
   )

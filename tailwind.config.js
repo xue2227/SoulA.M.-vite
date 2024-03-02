@@ -9,8 +9,14 @@ export default {
       width: {
         '88': '22rem',
       },
+      colors: {
+        myblue: '#00F5FF',
+        mypurple: '#F637EC',
+      },
+      scale: {
+        '80': '.8',
+      },
     },
   },
   plugins: [],
 }
-

@@ -2,6 +2,7 @@ import { useNavigate } from 'react-router-dom';
 import { useContext } from 'react';
 import { QuizContext } from '../../App';
 
+
 /* eslint-disable react-refresh/only-export-components */
 const Intro = () => {
   const { resetCounter } = useContext(QuizContext);

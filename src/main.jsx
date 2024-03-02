@@ -9,3 +9,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
     <App />
   </React.StrictMode>,
 )
+const loader = document.querySelector('.loader');
+if (loader) {
+  loader.remove();
+}

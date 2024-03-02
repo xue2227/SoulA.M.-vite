@@ -1,1 +1,11 @@
-
+@keyframes marquee {
+  0% {
+    transform: translateX(0);
+  }
+  to {
+    transform: translateX(-100%);
+  }
+}
+.App{
+  cursor:url(./assets/cursor/cursor.svg), auto;
+}
