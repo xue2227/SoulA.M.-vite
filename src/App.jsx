@@ -30,6 +30,8 @@ import ResultParty from "./page/results/resultParty";
 import Calculate from "./page/transition/calculate";
 import MarqueeRight from "./components/MarqueeRight"; 
 import MarqueeLeft from "./components/MarqueeLeft";
+import { SpeedInsights } from "@vercel/speed-insights/next"
+
 
 export const QuizContext = createContext();
 
@@ -48,6 +50,7 @@ function App() {
   };
 
   return (
+    <SpeedInsights>
     <QuizContext.Provider
       value={{
         PolitenessLevel,
@@ -103,6 +106,7 @@ function App() {
         </div>
       </Router>
     </QuizContext.Provider>
+    </SpeedInsights>
   );
 }
 
