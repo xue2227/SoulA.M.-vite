@@ -1,6 +1,7 @@
 import "./App.css";
 import { MemoryRouter as Router, Route, Routes } from "react-router-dom";
 import { useState, createContext } from "react";
+
 import Intro from "./page/transition/intro";
 import Q1 from "./page/questions/q1";
 import Q2 from "./page/questions/q2";
@@ -30,6 +31,7 @@ import ResultParty from "./page/results/resultParty";
 import Calculate from "./page/transition/calculate";
 import MarqueeRight from "./components/MarqueeRight"; 
 import MarqueeLeft from "./components/MarqueeLeft";
+
 
 export const QuizContext = createContext();
 
@@ -63,16 +65,15 @@ function App() {
     >
       <Router>
         <div className="flex flex-col items-center justify-start">
-          <div className="fixed top-0 w-full z-50">
+          <div className="fixed top-0 w-full z-20">
             <MarqueeRight />
           </div>
 
-          <div className="fixed bottom-0 w-full z-50">
+          <div className="fixed bottom-0 w-full z-20">
             <MarqueeLeft />
           </div>
           <Routes>
             <Route path="/" element={<Intro />} />
-            {/* <Route path="/" element={<Q6 />} /> */}
             <Route path="/0to1" element={<Transition0to1 />} />
             <Route path="/Q1" element={<Q1 />} />
             <Route path="/1to2" element={<Transition1to2 />} />

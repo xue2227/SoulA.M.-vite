@@ -4,7 +4,7 @@ const MarqueeRight = () => {
 
 
   return (
-    <Marquee direction={"right"} gradient={false} speed={80} className="text-black font-bold text-sm bg-myblue p-1 border border-black ">
+    <Marquee direction={"right"} gradient={false} speed={80} className="text-black font-bold text-sm bg-myblue p-1 border-x-0 border border-black ">
       <span >
         {text}
       </span>
