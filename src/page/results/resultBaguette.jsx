@@ -14,7 +14,7 @@ function ResultBaguette() {
     navigate("/");
   }
 
-  const color = '#BA661E'; //change color here
+  const color = '#CB7F36'; //change color here
   const isInverse = true;
 
   return (
