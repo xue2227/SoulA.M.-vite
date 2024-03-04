@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import party from '../../assets/resultJpg/party.jpg';
+import party from '../../assets/resultJpg/party.png';
 
 /* eslint-disable react-refresh/only-export-components */
 function ResultParty() {

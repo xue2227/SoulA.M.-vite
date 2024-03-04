@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import capybara from '../../assets/resultJpg/capybara.jpg';
+import capybara from '../../assets/resultJpg/capybara.png';
 
 /* eslint-disable react-refresh/only-export-components */
 function ResultCapybara() {

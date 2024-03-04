@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { QuizContext } from "../../App";
 import Option1 from "../../components/Option1";
 import Option2 from "../../components/Option2";
-import q5Topic from "../../assets/topicPicture/q6Topic.gif"; // 你需要将这个路径替换为你的图片路径
+import q5Topic from "../../assets/topicPicture/q5Topic.gif"; // 你需要将这个路径替换为你的图片路径
 import Colored from "../../components/progressBar/Colored";
 /* eslint-disable react-refresh/only-export-components */
 const Q5 = () => {

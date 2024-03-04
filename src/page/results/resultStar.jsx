@@ -1,5 +1,6 @@
 import { Link } from "react-router-dom";
-import star from '../../assets/resultJpg/star.jpg';
+import star from '../../assets/resultJpg/star.png';
+
 
 /* eslint-disable react-refresh/only-export-components */
 function ResultStar() {

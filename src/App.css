@@ -6,8 +6,10 @@
     transform: translateX(-100%);
   }
 }
+
 @keyframes my-pulse {
-  0%, 100% {
+  0%,
+  100% {
     opacity: 1;
   }
   50% {
@@ -15,28 +17,45 @@
   }
 }
 
-@keyframes flyIn {
-  0% {
-    transform: translateX(-100%);
-  }
+@keyframes big-pulse {
+  0%,
   100% {
-    transform: translateX(0);
+    opacity: 1;
+  }
+  50% {
+    opacity: 0.4;
   }
 }
 
-@keyframes flyUp {
-  0% {
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp {
+  from {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  to {
     transform: translateY(0);
+    opacity: 1;
+  }
+}
+
+@keyframes float {
+  0% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-20px);
   }
   100% {
-    transform: translateY(-100%);
+    transform: translateY(0px);
   }
-}
-
-.page-enter {
-  animation: flyIn 1s forwards;
-}
-
-.page-exit {
-  animation: flyUp 1s forwards;
 }

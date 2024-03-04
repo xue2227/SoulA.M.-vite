@@ -73,7 +73,9 @@ function App() {
             <MarqueeLeft />
           </div>
           <Routes>
-            <Route path="/" element={<Intro />} />
+            {/* <Route path="/" element={<Intro />} /> */}
+            <Route path="/" element={<ResultCapybara />} />
+            <Route path="/s" element={<Intro/>} />            
             <Route path="/0to1" element={<Transition0to1 />} />
             <Route path="/Q1" element={<Q1 />} />
             <Route path="/1to2" element={<Transition1to2 />} />

@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import flower from '../../assets/resultJpg/flower.jpg';
+import flower from '../../assets/resultJpg/flower.png';
 
 /* eslint-disable react-refresh/only-export-components */
 function ResultFlower() {

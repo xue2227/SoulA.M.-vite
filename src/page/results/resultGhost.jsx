@@ -1,5 +1,5 @@
 import { Link } from "react-router-dom";
-import ghost from '../../assets/resultJpg/ghost.jpg';
+import ghost from '../../assets/resultJpg/ghost.png';
 
 /* eslint-disable react-refresh/only-export-components */
 function ResultGhost() {

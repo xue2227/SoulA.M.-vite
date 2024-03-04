@@ -4,7 +4,7 @@ const Sticker = () => {
 
 
   return (
-    <img src={sticker} alt="Sticker" className="z-10 w-20 h-20 animate-spin-slow" />
+    <img src={sticker} alt="Sticker" className="z-10 w-24 h-24 animate-spin-slow" />
   );
 };
 
