@@ -5,6 +5,8 @@ import Option1 from "../../components/Option1";
 import Option2 from "../../components/Option2";
 import q5Topic from "../../assets/topicPicture/q5Topic.gif"; // 你需要将这个路径替换为你的图片路径
 import Colored from "../../components/progressBar/Colored";
+import { motion } from 'framer-motion';
+
 /* eslint-disable react-refresh/only-export-components */
 const Q5 = () => {
   const navigate = useNavigate();
@@ -28,12 +30,18 @@ const Q5 = () => {
   };
 
   return (
-    <div className="flex flex-col items-center justify-start min-h-svh sm:min-h-screen  bg-white text-black overflow-auto ">
+    <motion.div 
+      initial={{ opacity: 0 }}
+      animate={{ opacity: 1 }}
+      exit={{ opacity: 0 }}
+      transition={{ duration: 0.8, ease: "easeInOut" }}
+      className="flex flex-col items-center justify-start min-h-svh sm:min-h-screen  bg-white text-black overflow-auto"
+    >
       <div className="w-full max-w-lg mx-auto ">
-      <Colored currentProgress={progress} />
+        <Colored currentProgress={progress} />
 
         <div className="text-center font-bold p-4 mx-4 text-lg text-stone-900 mb-1 ">
-          <h2>Q5:正當你準備欣賞美麗的風景，卻聽見別人手機傳來巨大的聲響，你心想？</h2>
+          <h2>Q5:正當你準備欣賞美麗的風景，卻聽見別人手機<br/>傳來巨大的聲響，你心想...</h2>
         </div>
         <div className="relative mx-auto w-10/12">
           <img src={q5Topic} alt="q5Contant" className="w-full" />
@@ -46,8 +54,7 @@ const Q5 = () => {
           <Option2>真好奇他在看什麼，看那麼仔細。</Option2>
         </div>
       </div>
-
-    </div>
+    </motion.div>
   );
 };
 

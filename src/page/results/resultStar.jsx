@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import star from "../../assets/resultJpg/star.png";
+import star from "../../assets/resultJpg/star.jpg";
 import Start from "../../components/start";
 import ResultSticker from "../../components/resultDressing/resultSticker";
 import starcolor from "../../components/progressBar/starcolor.svg";

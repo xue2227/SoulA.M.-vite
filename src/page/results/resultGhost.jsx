@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import ghost from "../../assets/resultJpg/ghost.png";
+import ghost from "../../assets/resultJpg/ghost.jpg";
 import Start from "../../components/start";
 import ResultSticker from "../../components/resultDressing/resultSticker";
 import ghostcolor from "../../components/progressBar/ghostcolor.svg";

@@ -1,5 +1,5 @@
 import { useNavigate } from "react-router-dom";
-import capybara from "../../assets/resultJpg/capybara.png";
+import capybara from "../../assets/resultJpg/capybara.jpg";
 import Start from "../../components/start";
 import ResultSticker from "../../components/resultDressing/resultSticker";
 import capybaracolor from "../../components/progressBar/capybaracolor.svg";
