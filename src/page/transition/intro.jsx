@@ -77,7 +77,7 @@ const Intro = () => {
         className="z-10 w-8/12 mt-16 pl-2 animate-my-pulse"
         alt="Logo"
       />
-      <div></div>
+      
       <div ref={textRef} className="z-10 font-normal text-xs text-center text-pretty px-10 text-stone-600 leading-loose mt-8">
         <AnimatePresence>
           {textLines.map((line, index) => (
