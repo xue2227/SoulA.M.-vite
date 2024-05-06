@@ -31,6 +31,8 @@ import ResultParty from "./page/results/resultParty";
 import Calculate from "./page/transition/calculate";
 import MarqueeRight from "./components/MarqueeRight"; 
 import MarqueeLeft from "./components/MarqueeLeft";
+import Reveal from "./components/Reveal";
+// import CursorTrail from "./components/cursorTrail";
 
 
 export const QuizContext = createContext();
@@ -48,6 +50,9 @@ function App() {
     setCasualLevel(0);
     setProgress(1);
   };
+  
+  const [reveal, setReveal] = useState(false);
+  const delayTime = 0.25;
 
   return (
     <QuizContext.Provider
@@ -61,17 +66,21 @@ function App() {
         progress,
         setProgress,
         resetCounter,
+        setReveal,
+        delayTime,
       }}
     >
       <Router>
         <div className="flex flex-col items-center justify-start">
-          <div className="fixed top-0 w-full z-20">
+          <div className="fixed top-0 w-full z-50">
             <MarqueeRight />
           </div>
 
-          <div className="fixed bottom-0 w-full z-20">
+          <div className="fixed bottom-0 w-full z-50">
             <MarqueeLeft />
           </div>
+          {/* <CursorTrail /> */}
+          <Reveal play={reveal} setPlay={setReveal} className='fixed z-40' />
           <Routes>
             <Route path="/" element={<Intro />} />
             <Route path="/0to1" element={<Transition0to1 />} />

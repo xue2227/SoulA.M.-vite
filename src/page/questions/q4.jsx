@@ -17,26 +17,26 @@ const Q4 = () => {
     setSensitivityLevel,
     progress,
     setProgress,
+    setReveal,
+    delayTime
   } = useContext(QuizContext);
 
   const handleOption1 = () => {
     setPolitenessLevel(PolitenessLevel + 4);
-    setProgress(progress + 1);
-    navigate("/4to5");
+    setTimeout(() => setProgress(progress + 1), delayTime * 1000);
+    setReveal(true);
+    setTimeout(() => navigate("/4to5"), delayTime * 1000);
   };
 
   const handleOption2 = () => {
     setSensitivityLevel(SensitivityLevel + 0);
-    setProgress(progress + 1);
-    navigate("/4to5");
+    setTimeout(() => setProgress(progress + 1), delayTime * 1000);
+    setReveal(true);
+    setTimeout(() => navigate("/4to5"), delayTime * 1000);
   };
 
   return (
     <motion.div 
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      transition={{ duration: 0.8, ease: "easeInOut" }}
       className="flex flex-col items-center justify-start min-h-svh sm:min-h-screen  bg-white text-black overflow-auto"
     >
       <div className="w-full max-w-lg mx-auto ">

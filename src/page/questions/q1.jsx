@@ -3,7 +3,7 @@ import { useContext } from "react";
 import { QuizContext } from "../../App";
 import Option1 from "../../components/Option1";
 import Option2 from "../../components/Option2";
-import q1Topic from "../../assets/topicPicture/q1Topic.gif"; // 你需要将这个路径替换为你的图片路径
+import q1Topic from "../../assets/topicPicture/q1Topic.gif"; // 題目圖片路径
 import Colored from "../../components/progressBar/Colored";
 import { motion } from 'framer-motion';
 
@@ -17,26 +17,26 @@ const Q1 = () => {
     setCasualLevel,
     progress,
     setProgress,
+    setReveal,
+    delayTime,
   } = useContext(QuizContext);
 
   const handleOption1 = () => {
     setCasualLevel(CasualLevel + 2);
-    setProgress(progress + 1);
-    navigate("/1to2");
+    setTimeout(() => setProgress(progress + 1), delayTime * 1000);
+    setTimeout(() => navigate("/1to2"), delayTime * 1000);
+    setReveal(true);
   };
 
   const handleOption2 = () => {
     setPolitenessLevel(PolitenessLevel + 0);
-    setProgress(progress + 1);
-    navigate("/1to2");
+    setTimeout(() => setProgress(progress + 1), delayTime * 1000);
+    setTimeout(() => navigate("/1to2"), delayTime * 1000);
+    setReveal(true);
   };
 
   return (
     <motion.div 
-      initial={{ opacity: 0 }}
-      animate={{ opacity: 1 }}
-      exit={{ opacity: 0 }}
-      transition={{ duration: 0.8, ease: "easeInOut" }}
       className="flex flex-col items-center justify-start min-h-svh sm:min-h-screen  bg-white text-black overflow-auto"
     >
       <div className="w-full max-w-lg mx-auto ">

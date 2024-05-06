@@ -6,7 +6,7 @@ function Start({ children }) {
 
   return (
     <div
-      className="relative text-center h-28 w-28 transform transition duration-500 ease-in-out hover:scale-110 "
+      className="relative text-center h-24 w-24 transform transition duration-500 ease-in-out hover:scale-110 "
       onMouseEnter={() => setHover(true)}
       onMouseLeave={() => setHover(false)}
     >
