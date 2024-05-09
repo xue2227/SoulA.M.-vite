@@ -49,10 +49,10 @@ const Q6 = () => {
           <img src={q7Topic} alt="q4Contant" className="w-full" />
         </div>
 
-        <div onClick={handleOption1} className="w-full">
+        <div onClick={handleOption1} className="w-full text-sm">
           <Option1>等下一班電梯好了。</Option1>
         </div>
-        <div onClick={handleOption2} className="w-full">
+        <div onClick={handleOption2} className="w-full text-sm mb-16">
           <Option2>我也要搭！快步向前再把電梯門按開。</Option2>
         </div>
       </div>

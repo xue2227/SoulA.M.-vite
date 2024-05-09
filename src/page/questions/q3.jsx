@@ -52,7 +52,7 @@ const Q3 = () => {
         <div onClick={handleOption1} className="w-full text-sm">
           <Option1>立刻停下與小精靈互動，趕快弄清楚怎麼回事。</Option1>
         </div>
-        <div onClick={handleOption2} className="w-full text-sm">
+        <div onClick={handleOption2} className="w-full text-sm mb-16">
           <Option2>突然停住會擋到其他的鼠鼠，等等再回應吧。</Option2>
         </div>
       </div>

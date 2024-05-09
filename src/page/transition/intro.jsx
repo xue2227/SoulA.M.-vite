@@ -75,6 +75,8 @@ const Intro = () => {
           alt="Cloud"
           className="w-full h-full absolute top-0 left-[0.6rem] z-0 py-9 "
         />
+
+        
       </div>
       <img
         ref={logoRef}

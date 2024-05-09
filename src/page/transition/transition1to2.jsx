@@ -21,6 +21,7 @@ const Transition1to2 = () => {
       <motion.div
         onClick={() => {
           setReveal(true);
+          window.scrollTo(0, 0);
           setTimeout(() => navigate("/Q2"), delayTime * 1000);
         }}
         className="flex flex-col items-center justify-center min-h-svh bg-black text-white p-4 w-full"

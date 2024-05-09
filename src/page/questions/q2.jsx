@@ -52,7 +52,7 @@ const Q2 = () => {
         <div onClick={handleOption1} className="w-full text-sm">
           <Option1>不是要禮讓行人嗎，瞪什麼啊？</Option1>
         </div>
-        <div onClick={handleOption2} className="w-full text-sm">
+        <div onClick={handleOption2} className="w-full text-sm mb-16">
           <Option2>他在等我嗎？趕快過馬路才不會造成困擾。</Option2>
         </div>
       </div>

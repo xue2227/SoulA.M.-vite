@@ -53,7 +53,7 @@ const Q1 = () => {
         <div onClick={handleOption1} className="w-full text-sm">
           <Option1>再往前開，看看有沒有空隙再切過去。</Option1>
         </div>
-        <div onClick={handleOption2} className="w-full text-sm">
+        <div onClick={handleOption2} className="w-full text-sm mb-16">
           <Option2>乖乖排隊，隨著車流緩緩前進。</Option2>
         </div>
       </div>

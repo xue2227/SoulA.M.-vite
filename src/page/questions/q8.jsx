@@ -52,7 +52,7 @@ const Q8 = () => {
         <div onClick={handleOption1} className="w-full text-sm">
           <Option1>咦我剛剛忘了說嗎？算了也不是不能喝。</Option1>
         </div>
-        <div onClick={handleOption2} className="w-full text-sm">
+        <div onClick={handleOption2} className="w-full text-sm mb-16">
           <Option2>我明明說不要糖啊，趕緊去跟店員理論。</Option2>
         </div>
       </div>

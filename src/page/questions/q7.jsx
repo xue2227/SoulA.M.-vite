@@ -50,7 +50,7 @@ const Q7 = () => {
         <div onClick={handleOption1} className="w-full text-sm">
           <Option1>天呀，好沒水準的人。</Option1>
         </div>
-        <div onClick={handleOption2} className="w-full text-sm">
+        <div onClick={handleOption2} className="w-full text-sm mb-16">
           <Option2>他在吃啥？吃的這麼起勁。</Option2>
         </div>
       </div>

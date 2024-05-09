@@ -47,10 +47,10 @@ const Q5 = () => {
           <img src={q5Topic} alt="q5Contant" className="w-full" />
         </div>
 
-        <div onClick={handleOption1} className="w-full">
+        <div onClick={handleOption1} className="w-full text-sm">
           <Option1>幹嘛開那麼大聲，氛圍都被破壞了。</Option1>
         </div>
-        <div onClick={handleOption2} className="w-full">
+        <div onClick={handleOption2} className="w-full text-sm mb-16">
           <Option2>真好奇他在看什麼，看那麼仔細。</Option2>
         </div>
       </div>
