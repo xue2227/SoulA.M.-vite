@@ -69,6 +69,7 @@ function App() {
         setReveal,
         delayTime,
       }}
+      
     >
       <Router>
         <div className="flex flex-col items-center justify-start">
