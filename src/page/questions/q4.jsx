@@ -43,7 +43,7 @@ const Q4 = () => {
         <Colored currentProgress={progress} />
 
         <div className="text-center font-bold p-4 mx-4 text-lg text-stone-900 mb-1 ">
-          <h2>Q4:劇烈聲響後你什都聽不見，隱隱之中你似乎<br/>看見了些什麼，你心想...</h2>
+          <h2>Q4:劇烈聲響後你什麼都聽不見，隱隱之中你似乎<br/>看見了些什麼，你心想...</h2>
         </div>
         <div className="relative mx-auto w-10/12">
           <img src={q4Topic} alt="q4Contant" className="w-full" />
