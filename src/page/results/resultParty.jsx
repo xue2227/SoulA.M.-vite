@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import party from "../../assets/resultJpg/party.jpg";
+// import party from "../../assets/resultJpg/party.jpg";
+import party from "../../assets/resultJpg/party.gif";
 import Start from "../../components/start";
 import ResultSticker from "../../components/resultDressing/resultSticker";
 import partycolor from "../../components/progressBar/partycolor.svg";

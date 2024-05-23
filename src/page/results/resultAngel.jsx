@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import angelImage from "../../assets/resultJpg/angel.jpg";
+// import angelImage from "../../assets/resultJpg/angel.jpg";
+import angelImage from "../../assets/resultJpg/angel.gif";
 import Start from "../../components/start";
 import ResultSticker from "../../components/resultDressing/resultSticker";
 import angelcolor from "../../components/progressBar/angelcolor.svg";

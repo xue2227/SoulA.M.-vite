@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import cat from "../../assets/resultJpg/cat.jpg";
+// import cat from "../../assets/resultJpg/cat.jpg";
+import cat from "../../assets/resultJpg/cat.gif";
 import Start from "../../components/start";
 import ResultSticker from "../../components/resultDressing/resultSticker";
 import catcolor from "../../components/progressBar/catcolor.svg";

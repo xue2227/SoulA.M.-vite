@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import baguetteImage from "../../assets/resultJpg/baguette.jpg";
+// import baguetteImage from "../../assets/resultJpg/baguette.jpg";
+import baguetteImage from "../../assets/resultJpg/baguette.gif";
 import Start from "../../components/start";
 import ResultSticker from "../../components/resultDressing/resultSticker";
 import baguettecolor from "../../components/progressBar/baguettecolor.svg";

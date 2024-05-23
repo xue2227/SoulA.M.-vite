@@ -1,5 +1,6 @@
 import { useNavigate } from "react-router-dom";
-import flower from "../../assets/resultJpg/flower.jpg";
+// import flower from "../../assets/resultJpg/flower.jpg";
+import flower from "../../assets/resultJpg/flower.gif";
 import Start from "../../components/start";
 import ResultSticker from "../../components/resultDressing/resultSticker";
 import flowercolor from "../../components/progressBar/flowercolor.svg";
